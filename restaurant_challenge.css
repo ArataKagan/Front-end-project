@@ -14,15 +14,12 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-
-
 #Menu {
-  margin-left: auto;
-  margin-right: auto;
+  float: right;
+  vertical-align:bottom;
   height: 100%;
   text-align: center;
   border: 2px solid rgb(0,0,0);
-  clear:right;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
@@ -31,7 +28,20 @@
 }
 
 #MenuTable {
+  padding: 20px;
   text-align: left;
-  border: 2px solid rgb(0,0,0);
+}
 
+#TableHead > th {
+  border: 1px solid black;
+  background-color: gray;
+}
+
+.row1 > td {
+  background-color: #D3D3D3;
+  border: 1px solid black;
+}
+
+.row2 > td {
+  border: 1px solid black;
 }
